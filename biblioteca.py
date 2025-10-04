@@ -1,4 +1,4 @@
-import operator
+
 from csv import writer
 def carica_da_file(file_path):
     """Carica i libri dal file"""

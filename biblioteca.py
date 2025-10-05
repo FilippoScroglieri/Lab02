@@ -5,7 +5,7 @@ def carica_da_file(file_path):
     # TODO
     biblioteca = []
     with open(file_path, 'r', encoding='utf-8') as infile:
-        infile.readline()  # salto intestazione
+        infile.readline()  # salto intestazione ( salto una riga)
         for riga in infile:
             campi = riga.rstrip().split(',')
             # se ci sono meno di 5 campi, li completo con stringhe vuote
